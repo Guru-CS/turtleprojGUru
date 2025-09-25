@@ -21,7 +21,7 @@ for _ in range(100):
     for i in range(ref):
      # what rotates the orignal line
      #float() allows for more precise rotations
-        angle_offset = float(360) / ref * fi
+        angle_offset = float(360) / ref * i
 
         # Original line
         t.penup()
@@ -47,4 +47,5 @@ for _ in range(100):
     t.penup()
     t.goto(positions[0])
     t.pendown()
+
 
